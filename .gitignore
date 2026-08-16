@@ -216,5 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-docs/stock/Warren_Edward_Buffett.md
+
+
 docs/dev/security.md
+docs/dev/idea.md
+docs/stock/Warren_Buffet/rule.md
+docs/stock/Warren_Buffet/Warren_Edward_Buffett.md
