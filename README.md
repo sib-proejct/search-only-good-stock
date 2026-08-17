@@ -11,7 +11,7 @@
 - **Backend (BE)**: `search-only-good-stock` (현재 프로젝트)
   - **기술 스택**: Python, FastAPI, `uv`, Pydantic
 - **Frontend (FE)**: `search-only-good-stock-fe`
-  - **기술 스택**: Next.js, TypeScript, Tailwind CSS
+  - **기술 스택**: Next.js / Vite, TypeScript, Tailwind CSS
 
 ---
 

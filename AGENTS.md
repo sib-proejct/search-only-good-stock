@@ -2,10 +2,10 @@
 
 ## 프로젝트 구성 및 저장소 분리 구조
 
-본 프로젝트는 **FastAPI 백엔드(현재 저장소)**와 별도의 **Next.js 프론트엔드(`search-only-good-stock-fe`)**로 분리되어 개발됩니다.
+본 프로젝트는 **FastAPI 백엔드(현재 저장소)**와 별도의 **프론트엔드(`search-only-good-stock-fe`)**로 분리되어 개발됩니다.
 
 - **Backend (BE - 현재 저장소 `search-only-good-stock`)**: FastAPI (Python with `uv`, Pydantic, SQLAlchemy/SQLModel 등)
-- **Frontend (FE - `search-only-good-stock-fe`)**: Next.js (TypeScript, Tailwind CSS, App Router)
+- **Frontend (FE - `search-only-good-stock-fe`)**: Next.js / Vite (React, TypeScript, Tailwind CSS)
 
 ---
 
@@ -16,9 +16,9 @@
    - 가상환경 및 의존성 관리는 임의의 `pip` 대신 반드시 `uv`(`uv sync`, `uv add`, `uv run`)를 사용합니다.
    - API 요청/응답 모델은 Pydantic을 활용하여 엄격히 타입 검증을 수행합니다.
    - `pyproject.toml`과 `uv.lock`의 동기화 상태를 엄격히 유지합니다.
-2. **Frontend (Next.js & 타입 일치)**
+2. **Frontend (Next.js / Vite & 타입 일치)**
 
-   - API 주소는 `.env.local`의 환경변수(`NEXT_PUBLIC_API_URL`)로 분리 관리합니다.
+   - API 주소는 환경변수(`NEXT_PUBLIC_API_URL` 또는 `VITE_API_URL`)로 분리 관리합니다.
    - 백엔드 DTO 모델 스펙과 TypeScript 인터페이스 타입을 일치시킵니다.
 3. **보안 및 안전성 (Security & Safety)**
 

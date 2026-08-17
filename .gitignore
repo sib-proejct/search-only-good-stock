@@ -1,3 +1,11 @@
+# personal
+docs/dev/security.md
+docs/dev/idea.md
+docs/stock/Warren_Buffet/rule.md
+docs/stock/Warren_Buffet/Warren_Edward_Buffett.md
+docs/dev/daily_log/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,9 +224,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-
-docs/dev/security.md
-docs/dev/idea.md
-docs/stock/Warren_Buffet/rule.md
-docs/stock/Warren_Buffet/Warren_Edward_Buffett.md
